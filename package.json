@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-scss-color-palettes",
+  "version": "1.0.0",
+  "description": "Vite plugin for generating color palettes in scss.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomva/vite-plugin-scss-color-palettes.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "color",
+    "palette",
+    "scss"
+  ],
+  "author": "Thomva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Thomva/vite-plugin-scss-color-palettes/issues"
+  },
+  "homepage": "https://github.com/Thomva/vite-plugin-scss-color-palettes#readme"
+}
