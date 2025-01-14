@@ -1,7 +1,7 @@
-const fse = require('fs-extra')
-const sass = require('sass-embedded')
-const postcss = require('postcss')
-const { extractICSS } = require('icss-utils')
+import fse from 'fs-extra'
+import * as sass from 'sass-embedded'
+import postcss from 'postcss'
+import { extractICSS } from 'icss-utils'
 
 export default ({
   scssFilePath = './src/scss/variables/exports.module.scss',
