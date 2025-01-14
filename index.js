@@ -9,7 +9,7 @@ export default ({
   amount = 20,
   colorVariablePrefix = 'color-palette',
   showLogs = false,
-}) => {
+} = {}) => {
   async function generateScssColorPalettes() {
     if (!fse.existsSync(scssFilePath)) {
       console.warn(`SCSS file not found at ${scssFilePath}`)
