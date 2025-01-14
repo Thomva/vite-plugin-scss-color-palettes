@@ -1,6 +1,7 @@
 # vite-plugin-scss-color-palettes
+
 [![npm](https://img.shields.io/npm/v/vite-plugin-scss-color-palettes)](https://www.npmjs.com/package/vite-plugin-scss-color-palettes)
-[![GitHub license](https://img.shields.io/github/license/thomva/vite-plugin-scss-color-palettes)](https://github.com/thomva/vite-plugin-scss-color-palettes/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/thomva/vite-plugin-scss-color-palettes)](https://github.com/thomva/vite-plugin-scss-color-palettes/blob/main/LICENSE)
 
 Vite plugin for generating color palettes in scss. The css [`color-mix()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix) function is used to generate the colors and mixes each color with white and black.
 
