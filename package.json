@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-scss-color-palettes",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Vite plugin for generating color palettes in scss.",
   "main": "index.js",
   "module": "index.js",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/thomva/vite-plugin-scss-color-palettes#readme",
   "scripts": {
-    "release": "bumpp -apt -c \"Release: v\""
+    "release": "bumpp -apt -c \"Release: v\" & npm publish"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
