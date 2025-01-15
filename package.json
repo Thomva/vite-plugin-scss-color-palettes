@@ -24,10 +24,10 @@
   "dependencies": {
     "fs-extra": "^11.2.0",
     "icss-utils": "^5.1.0",
-    "multimatch": "^7.0.0",
-    "sass-embedded": "^1.83.4"
+    "multimatch": "^7.0.0"
   },
   "peerDependencies": {
-    "postcss": "8.x"
+    "postcss": "*",
+    "sass-embedded": "*"
   }
 }
