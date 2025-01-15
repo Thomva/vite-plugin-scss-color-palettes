@@ -21,13 +21,11 @@
     "url": "https://github.com/Thomva/vite-plugin-scss-color-palettes/issues"
   },
   "homepage": "https://github.com/Thomva/vite-plugin-scss-color-palettes#readme",
-  "devDependencies": {
+  "dependencies": {
     "fs-extra": "^11.2.0",
     "icss-utils": "^5.1.0",
+    "multimatch": "^7.0.0",
     "postcss": "^8.5.1",
     "sass-embedded": "^1.83.4"
-  },
-  "dependencies": {
-    "multimatch": "^7.0.0"
   }
 }
