@@ -2,10 +2,12 @@ import fse from 'fs-extra'
 import * as sass from 'sass-embedded'
 import postcss from 'postcss'
 import { extractICSS } from 'icss-utils'
+import multimatch from 'multimatch'
 
 export default ({
   scssFilePath = './src/scss/variables/exports.module.scss',
   outputFilePath = './src/scss/variables/_auto-generated-color-palettes.scss',
+  watchPatterns = ['**/exports.module.scss'],
   amount = 20,
   colorVariablePrefix = 'color-palette',
   showLogs = false,
@@ -96,7 +98,7 @@ export default ({
       generateScssColorPalettes()
     },
     handleHotUpdate({ file, server }) {
-      if (file.endsWith(scssFilePath.split('/').pop())) {
+      if (multimatch([file], watchPatterns).length) {
         generateScssColorPalettes()
         server.ws.send({
           type: 'full-reload',
