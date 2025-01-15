@@ -25,7 +25,9 @@
     "fs-extra": "^11.2.0",
     "icss-utils": "^5.1.0",
     "multimatch": "^7.0.0",
-    "postcss": "^8.5.1",
     "sass-embedded": "^1.83.4"
+  },
+  "peerDependencies": {
+    "postcss": "8.x"
   }
 }
