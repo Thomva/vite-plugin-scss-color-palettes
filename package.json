@@ -26,5 +26,8 @@
     "icss-utils": "^5.1.0",
     "postcss": "^8.5.1",
     "sass-embedded": "^1.83.4"
+  },
+  "dependencies": {
+    "multimatch": "^7.0.0"
   }
 }

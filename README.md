@@ -60,6 +60,13 @@ $primary-800: color-mix(in srgb, rgb(0, 192, 176), black 60%);
 $primary-900: color-mix(in srgb, rgb(0, 192, 176), black 80%);
 ```
 
+### `watchPatterns`
+
+- Type: `string[]`
+- Default: `['**/exports.module.scss']`
+
+Files to watch for changes. When a file changes, the color palettes will be regenerated. Uses [multimatch](https://github.com/sindresorhus/multimatch).
+
 ### `amount`
 
 - Type: `number`
