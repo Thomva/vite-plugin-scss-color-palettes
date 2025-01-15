@@ -7,7 +7,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Thomva/vite-plugin-scss-color-palettes.git"
+    "url": "git+https://github.com/thomva/vite-plugin-scss-color-palettes.git"
   },
   "keywords": [
     "vite-plugin",
@@ -18,9 +18,12 @@
   "author": "Thomva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Thomva/vite-plugin-scss-color-palettes/issues"
+    "url": "https://github.com/thomva/vite-plugin-scss-color-palettes/issues"
   },
-  "homepage": "https://github.com/Thomva/vite-plugin-scss-color-palettes#readme",
+  "homepage": "https://github.com/thomva/vite-plugin-scss-color-palettes#readme",
+  "scripts": {
+    "release": "bumpp --capt"
+  },
   "dependencies": {
     "fs-extra": "^11.2.0",
     "icss-utils": "^5.1.0",
@@ -29,5 +32,8 @@
   "peerDependencies": {
     "postcss": "*",
     "sass-embedded": "*"
+  },
+  "devDependencies": {
+    "bumpp": "^9.10.1"
   }
 }
