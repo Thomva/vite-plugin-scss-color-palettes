@@ -83,6 +83,13 @@ The middle color will always be the original color (value `500`).
 
 Prefix of the color palette variables in the `scssFilePath`.
 
+### `withScssMaps`
+
+- Type: `boolean`
+- Default: `true`
+
+Generate scss maps for the color palettes.
+
 ### `showLogs`
 
 - Type: `boolean`
